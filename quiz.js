@@ -371,3 +371,182 @@
 //      x = 2;
 //    }
 
+var date =  new Date();
+date.getUTCDate();
+console.log(date.getUTCDate());
+
+console.log(date);
+
+var str = date.toString();
+console.log(str[9]);
+
+var arr = str.split(" ");
+console.log(arr);
+
+// var cityToCheck = "lahore";
+// var someChars = cityToCheck.slice(2, 5);
+// var someChars = cityToCheck.slice(2);
+// console.log(someChars);
+
+// var firstChar = cityToCheck.slice(0, 1);
+// var otherChars = cityToCheck.slice(1);
+// firstChar = firstChar.toUpperCase();
+// otherChars = otherChars.toLowerCase();
+// var cappedCity = firstChar + otherChars;
+// console.log(cappedCity);
+
+// var text = "World War II";
+// // var firstChar = text.indexOf("World War II");
+
+// var firstChar = text.indexOf("World War II");
+// if (firstChar !== -1) {
+//     text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
+// }
+// console.log(text);
+
+// var firstName = "zunaira";
+// var firstChar = firstName.charAt(3);
+// var name = "najaf";
+// var lastChar = name.charAt(name.length - 1);
+// console.log(firstChar);
+
+// ramadan left days finding
+
+var date = new Date('11-march-2024');
+var todayDate = new Date();
+
+var diff = date.getTime() - todayDate.getTime();
+var result = diff / (1000 * 60 * 60 * 24);
+
+console.log(Math.round(result) + " days are remaining in ramadan");
+
+var i = 0;
+for( i < 6; i++;){
+   console.log("no it is not possible");
+}
+
+let j = 0;
+while(j < 9){
+    console.log("yes it is possible")
+    j++;
+}
+
+let unassigned;
+console.log(unassigned);
+
+let str2 = "Hello";
+let nr = 7;
+let bigNr = 12345678901234n;
+let bool = true;
+let sym = Symbol("unique");
+let undef = undefined;
+let unknown = null;
+console.log("str", typeof str2);
+console.log("nr", typeof nr);
+console.log("bigNr", typeof bigNr);
+console.log("bool", typeof bool);
+console.log("sym", typeof sym);
+console.log("undef", typeof undef);
+console.log("unknown", typeof unknown);
+
+let str1 = 'Laurence'; 
+let str3 = "Svekis"; 
+let val1 = undefined;
+let val2 = null;
+let myNum = 1000;
+
+console.log("str1", typeof str1);
+console.log("str", typeof str3);
+console.log("val1", typeof val1);
+console.log("val2", typeof val2);
+console.log("str", typeof myNum);
+
+
+// let nr1 = 10;
+// let nr2 = 3;
+// let result1 = nr1 % nr2;
+// console.log(`${nr1} % ${nr2} = ${result1}`);
+
+let nr1 = 4;
+let nr2 = 5;
+let nr3 = 2;
+console.log(nr1++ + ++nr2 * nr3++);
+
+let a = 2;
+// a = prompt("world");
+console.log(a++);
+
+let firstNum = 5;
+let secondNum = 10;
+firstNum++;
+secondNum--;
+let total = ++firstNum + secondNum;
+console.log(total);
+let total2 = 500 + 100 / 5 + total--;
+console.log(total2);
+
+const myArr = ["apple",'mango','banana','cherrry','chheeeko'];
+myArr.splice(1,2,'im new',2,3);
+console.log(myArr);
+
+let mystr = 'my name is zunaira';
+console.log(mystr.indexOf("n"));
+
+arr8 = [ 2, 6, 7, 8 ];
+let findValue = arr8.find(function(e) { return e === 6});
+let findValue2 = arr8.find(e => e === 10);
+console.log(findValue, findValue2);
+
+
+ var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+ var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+ var fullNames = [];
+ for (var i = 0; i < firstNames.length; i++) {
+ for (var k = 0; k < lastNames.length; k++) {
+ fullNames.push(firstNames[i] + lastNames[k]);}
+ };
+
+ console.log(fullNames);
+
+ var naming = ["amina","bushra","atrooba"];
+ var greet = ["hello"];
+ var res = [];
+ for (let i = 0; i < naming.length; i++) {
+    for (let j = 0; j < greet.length; j++) {
+        res.push(naming[i] + " " + greet[j]); 
+    }  
+ }
+ console.log(res);
+
+//  var str = prompt("Enter some text");
+//   var numChars = str.length;
+//   for (var i = 0; i < numChars; i++) {
+//   if (str.slice(i, i + 2) === " ") {
+//   alert("No double spaces!");
+//   break;
+//   }
+// }bb
+
+// var abc = "abcd";
+// var newab = abc.indexOf("b");
+var scoreAvg = Math.ceil(9.999);
+console.log(scoreAvg);
+
+// multi dimensional array
+let arr1 = [1, 2, 3];
+let arrSum = [arr1, arr1, arr1];
+
+console.log(arrSum[1][1]);
+
+Person.prototype.introduce = function () {
+    console.log("Hi, I'm", this.firstname);
+   };
+
+ 
+
+   for (let i = 0; i < 5; i++) {
+    setTimeout(function () {
+        
+    })
+    
+   }

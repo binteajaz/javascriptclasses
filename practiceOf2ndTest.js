@@ -52,3 +52,32 @@ console.log(date.getTime()); //ms
 console.log(date.setDate(1));
 console.log(date);
 
+
+// 1. Create a function that takes two parameters, adds the parameters together, 
+// and returns the result.
+
+function tea(a,b){
+     return a + b;
+}
+
+var res = tea(2,3);
+console.log(res);
+// 2. Set up two different variables with two different values.
+// 3. Use your function on the two variables, and output the result using 
+// console.log. 
+
+var val1 = "aaa";
+var val2 = "bbb";
+
+function result(c,d){
+   return c + d;
+}
+
+var res2 = result(val1,val2);
+console.log(res2)
+
+// 4. Create a second call to the function using two more numbers as arguments 
+// sent to the function
+
+
+

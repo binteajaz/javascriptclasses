@@ -6,6 +6,9 @@ var date = new Date();
 // console.log(date.getMonth() +1);
 // console.log(date.getTime());
 
+var daysOFTheWeek = ["اتوار","پیر","منگل","بدھ","جمعرات","جمعه","ہفتہ"];
+console.log(daysOFTheWeek[date.getDay()]);
+
 // create a function in which displays date in format
 
 function displayDate(){
@@ -15,7 +18,7 @@ function displayDate(){
 }
 displayDate();
 
-// function 1.always do a one thing 2. takes arguments 3.takes argues and return a new value
+// function 1.always do a one thing 2. takes parameters 3.takes argues and return a new value
 
 function sum(a,b){
     var result = a + b;
@@ -126,5 +129,7 @@ function displayClock(){
 }
 displayClock();
 setInterval(displayClock, 1000);
+
+
 
 

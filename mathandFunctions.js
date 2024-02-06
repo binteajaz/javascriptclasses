@@ -50,16 +50,16 @@ function subtract(){
 
 subtract();
 
-function tryYourLuck(){
-    let win = ["dollar","deenar","dirham","euro","spouse","better luck next time","gold","diamond"];
-    let len = win.length; 
-    var random = Math.ceil(math.random() * (len - 1));
-    console.log()
-    console.log(`you won ${win[random]}`);
+// function tryYourLuck(){
+//     let win = ["dollar","deenar","dirham","euro","spouse","better luck next time","gold","diamond"];
+//     let len = win.length; 
+//     var random = Math.ceil(math.random() * (len - 1));
+//     console.log()
+//     console.log(`you won ${win[random]}`);
 
-}
+// }
 
-win();
+// win();
 
 var a = 10;
 var b = 11;
@@ -95,4 +95,64 @@ function tryYourLuck() {
 }
 tryYourLuck()
 
+// to find vowels in a string
 
+var mainString = "zunaira ansari";
+function countVowel(str) {
+    let counter = 0;
+    for(let i = 0; i < str.length; i++){
+        if(str[i] === "a" || str[i] === "e" || str[i] === "i"){
+            counter++; 
+        }
+    }
+    return("your vowels are counted:" + counter); 
+}
+
+const counterResult = countVowel(mainString);
+console.log(counterResult);
+
+let val = 10;
+function tester(val) {
+    val += 10;
+    if(val < 100){
+        return tester(val);
+    }
+    return val;
+}
+
+tester(val);
+console.log(val);
+
+let testFunc = function() {
+    console.log("hello");
+
+}();
+
+(function () {
+    console.log("Welcome");
+   })();
+   (function () {
+    let firstName = "Laurence";
+   })();
+   let result = (function () {
+    let firstName = "Laurence";
+    return firstName;
+   })();
+   console.log(result);
+   (function (firstName) {
+    console.log("My Name is " + firstName);
+   })("Laurence");
+
+   let test2 = (num) => num + 5;
+console.log(test2(14));
+
+
+// What will be output to the console?
+var addFive1 = function addFive1(num) {
+return num + 2;
+};
+let addFive2 = (num) => num + 2;
+console.log(addFive1(14));
+
+var math = 5+6-5/2*2;
+console.log(math);
