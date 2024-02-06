@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- <script>
+        $(document).ready(
+            function(){
+                $("#myid").click(function(){
+                    $("#myid2").slideToggle("slow");
+                });
+            });
+    </script> -->
+    <style>
+        #myid{
+            width: 100%;
+            height: 100px;
+            display: none;
+        }
+
+        #myid, #myid2{
+            border: 2px solid rgb(0, 119, 128);
+            background-color: rgb(110, 193, 160);
+            color: black;
+           
+        }
+        #myid2{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="myid">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur modi fugit architecto deserunt id, repellendus vel totam eaque corporis laboriosam, doloribus enim quas quidem dolorum! Beatae corrupti nesciunt aperiam?
+    </div>
+    <div id="myid2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur modi fugit architecto deserunt id, repellendus vel totam eaque corporis laboriosam, doloribus enim quas quidem dolorum! Beatae corrupti nesciunt aperiam?
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("#myid2").click(function(){
+                $("#myid").slideToggle("slow");
+            });
+        });
+    </script>
+</body>
+</html>
